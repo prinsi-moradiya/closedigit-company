@@ -1,0 +1,508 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Fonts/Poppins/Poppins-Thin.ttf');
+    font-weight: 100;
+   }
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Fonts/Poppins/Poppins-ThinItalic.ttf');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Fonts/Poppins/Poppins-ExtraLight.ttf');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Fonts/Poppins/Poppins-Light.ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Fonts/Poppins/Poppins-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Fonts/Poppins/Poppins-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Fonts/Poppins/Poppins-SemiBold.ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Fonts/Poppins/Poppins-Bold.ttf');
+    font-weight: 700;
+}
+
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.free-shipping{
+    height: 41px;
+    letter-spacing: 1px;
+    color: #0E1B4D;
+   
+}
+.free-shipping .free-shipping-inner-div{
+    width: 1155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+.free-shipping .free-shipping-inner-div .shipping-text{
+    height: 19px;
+    width: 414.4px;
+    padding: 10.5px 0px;
+    min-height: 40;
+}
+
+
+.header{
+    background-color: #F177AE;
+    height: 150px;
+    position:sticky;
+    /* top: 0; */
+}
+
+.header .header-inner-div{
+    margin: auto;
+    width: 1260px;
+    height: 150px;
+    max-width: 1260px;
+}
+
+.header .header-inner-div .upper-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20.28px 20.28px 18.28px 20.28px;
+    cursor: pointer;
+    
+}
+
+.header .header-inner-div .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.header .header-inner-div .navbar a{
+    padding: 12.6px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+    
+}
+
+.header .header-inner-div .navbar a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.you-buy-clothes{
+    height: 1002px;
+    padding: 20px 150px;
+    margin-top: 60px;
+    color: #262626;
+    text-align: center;
+
+}
+
+            
+.you-buy-clothes .you-buy-clothes-text{
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+    gap: 10px;
+    text-align: left; 
+    width: 1140px;
+    margin: auto;
+}
+
+.you-buy-clothes .you-buy-clothes-text .para1, .para2, .para3{
+   word-spacing: 2px;
+   width: 29%;
+   height: 50%;
+   font-size: 20px;
+   letter-spacing: 1px;
+   padding: 20px;
+   line-height: 30px;
+
+}
+
+.what-included-in-the-kit{
+  padding: 120px 142.5px;
+  gap: 56px; 
+  width: 1155px;
+  height: 689px;
+  margin: auto;  
+  color: #0E1B4D; 
+}
+
+.what-included-in-the-kit .what-included-in-the-kit-text{
+    height: 92px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.what-included-in-the-kit .what-included-in-the-kit-text .kit-header{
+  display: flex;
+  height: 36px;
+  justify-content: center;
+  align-items: center; 
+  line-height: 36px;
+  letter-spacing: 0.66px;
+  size: 28px;
+  font-weight: 500; 
+}
+
+.what-included-in-the-kit .what-included-in-the-kit-text .kit-text{
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 0.66px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.twin-period-kit{
+    padding-top: 60px;
+    Width: 1155px;
+    height: 478px;
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    color: #0E1B4DBF;
+
+}
+
+.twin-period-kit .kit-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 360px;
+}
+
+
+.twin-period-kit-text{
+    width: 500px;
+    gap: 10px;
+    line-height: 24px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column; 
+    font-weight: 400;      
+}
+
+
+.twin-period-kit-text li{
+  position: relative;
+  list-style-image: url(../Images/Drop.svg);    
+}
+
+.twin-period-kit .twin-period-kit-text .twin-period-text{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.twin-period-kit-text .counter {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #9da4ae;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color:white;
+  color:black;
+  width: 60px;
+}
+
+.twin-period-kit-text .counter .btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: gray;
+  cursor: pointer;
+  padding: 2px;
+}
+
+
+.twin-period-kit-text .counter .count {
+  margin: 0 10px;
+  font-size: 16px;
+  color: black;
+}
+
+.twin-period-kit-text .price{
+    font-weight: 700;
+    font-size: 25px;
+    padding: 15px 0px;
+    color: #262626;
+
+}
+
+.buy-now-button{
+    background-color: #F177AE;
+    width: 499px;
+    height: 48px;
+    text-align: center;
+    font-size: 15px;
+    border: none;   
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+.buy-now-button:hover{
+    background-color:rgb(219, 136, 163);
+    color: #0E1B4D;
+   
+}
+
+.Introduce-you-reddrop{
+  width: 100%;
+  background-color: #f5c2c2; 
+  display: flex;
+  justify-content: center; 
+  padding: 60px 0;
+  color: #0E1B4D;
+  font-weight: 500;
+}
+
+.Introduce-you-reddrop .RedDrop-content{
+  max-width: 800px; 
+  padding: 0 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 75%;
+}
+
+.everylflow-everyday{
+    width: 1155px;
+    margin: auto;
+    gap: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    columns: #0E1B4D;
+    font-weight: 500;
+}
+
+.everylflow-everyday .inner-div{
+    height: 436px;
+    display: flex;
+    gap: 48px;
+    justify-content: space-between;
+}
+
+
+.everylflow-everyday .inner-div .size-important{
+    width: 540px;
+    height: 436px;
+    padding-top: 60px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+    font-weight: 400;
+    /* opacity: 75%; */
+    color: #0E1B4D;
+}
+
+.everylflow-everyday .inner-div .size-important .size-important-heading{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #0E1B4D;
+    
+}
+
+.subscribe-to-our-email{
+    height: 542px;
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 120px;
+    background-color:#F077AE ;
+    position: relative;
+    font-weight: 400;
+    
+}
+
+.subscribe-to-our-email .subscribe{
+    height: 204px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 27px;
+    align-items: center;  
+}
+
+.subscribe-to-our-email .subscribe .h4-text{
+    font-size: 44px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 56px;
+}
+
+.subscribe-to-our-email .subscribe .p-text{
+    font-size: 20.8px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    opacity: 75%;
+    letter-spacing: 1px;
+}
+.subscribe-to-our-email .subscribe .mail-text{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.subscribe-to-our-email .subscribe .mail-text input{
+    display: block;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 13px 50px 13px 13px;
+    width: 450px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    
+}
+
+.subscribe-to-our-email .subscribe .mail-text button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+    
+}
+.subscribe-to-our-email .subscribe .mail-text  a{
+    text-decoration: none;
+}
+
+.subscribe-to-our-email .subscribe .mail-text input:focus{
+    outline: none;
+}
+
+footer{
+    background-color: #F077AE;
+    height: 236px;
+    padding-top: 34px;
+    padding-bottom: 60px;
+    margin: auto;
+    font-weight: 400;
+}
+
+footer .contact-us{
+   width: 1260px;
+   max-width: 1260px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   gap: 42px;
+}
+
+footer .contact-us .contact-us-inner-div{
+   display: flex;
+   justify-content: center;
+   gap: 16px;
+   color: white;
+   font-size: 20px;   
+}
+
+footer .contact-us .contact-us-inner-div a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .contact-us .contact-us-inner-div a:hover{
+    color: #0E1B4D;
+    padding-top: 2px;
+    
+}
+
+footer .contact-us .contact-us-social-media-logo{
+   display: flex;
+   justify-content: center;
+   gap: 16px;
+   color: white;
+   font-size: 25px;
+}
+
+footer .contact-us .contact-us-social-media-logo i{
+   width: 43;
+   height: 43;
+   padding: 10px 12px;
+   color: white;
+}
+
+footer .contact-us .contact-us-social-media-logo a:hover{
+    padding-top: 2px;
+    background-color: #0E1B4D;
+}
+
+footer .contact-us .footer-last-section{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    color: white;
+    font-size: 18px;
+}
+
+footer .contact-us .footer-last-section a{
+   color: white;
+   text-decoration: none;
+}
+
+footer .contact-us .footer-last-section a:hover{
+   color:#0E1B4D;   
+   padding-top: 2px;
+}
+ 
+footer .contact-us .footer-last-section ul{
+    display: flex;
+    gap: 30px;
+}
+
+footer .contact-us .footer-last-section li{
+   padding-left: 8.4px;
+   color: white;
+   text-decoration: none;
+   
+}
+
+
